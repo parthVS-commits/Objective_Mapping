@@ -38,12 +38,14 @@ def generate_business_objective(nic_codes_with_descriptions):
 The objective should:
 1. Include a separate paragraph for each NIC code
 2. Be detailed and comprehensive for each business activity described
-3. Include the NIC code number at the end of each paragraph (as per NIC Code XXXXX)
+3. Do not include the NIC code number at the end of each paragraph (as per NIC Code XXXXX)
 4. Use professional business language
 5. Avoid any special characters
+6. Maximum characters in total need to be restricted to 4000
 
 Format requirements:
 - Start each paragraph with "To carry on the business of..." or similar appropriate phrasing
+- Do not start with first person refernece but keep it general. For example, never write with "Our objective", but keep it in a sense of what company does concisely.
 - Make each NIC code's objective a separate paragraph
 - Be comprehensive yet concise
 - Base the objective directly on the business type/description provided for each NIC code
