@@ -42,6 +42,8 @@ The objective should:
 4. Use professional business language
 5. Avoid any special characters
 6. Maximum characters in total need to be restricted to 4000
+7. Create {len(nic_codes_with_descriptions)} distinct paragraphs
+8. If there is only one NIC code, you should only give one paragraph. Ensure the point 7 is not violated.
 
 Format requirements:
 - Start each paragraph with "To carry on the business of..." or similar appropriate phrasing
